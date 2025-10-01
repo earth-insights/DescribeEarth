@@ -1,6 +1,6 @@
 # DescribeEarth: Describe Anything for Remote Sensing Images
 
-Author: [Kaiyu Li](https://likyoo.github.io/)\*, [Zixuan Jiang](https://anxmuy.github.io/)\*, Xiangyong Cao$^{\dagger}$, Jiayu Wang, Yuchen Xiao, Deyu Meng, Zhi Wang
+Author: [Kaiyu Li](https://likyoo.github.io/)\*, [Zixuan Jiang](https://anxmuy.github.io/)\*, Xiangyong Cao✉, Jiayu Wang, Yuchen Xiao, Deyu Meng, Zhi Wang
 
 ---
 
@@ -52,7 +52,7 @@ DE-Dataset
 
 Use `bash scripts/format_data.sh` to format data for training.  
 
-De-Benchmark can be downloaded from [huggingface](https://huggingface.co/datasets/earth-insights/DE-Bench). 
+De-Benchmark can be downloaded from [huggingface](https://huggingface.co/datasets/earth-insights/DE-Benchmark).
 
 ### Quick Start
 
@@ -78,10 +78,11 @@ The object of category baseball_field within the specified polygon bounding box 
 
 ### Training
 
-Following Qwen2.5-VL baseline, do the following to train on DE-dataset / your own dataset: 
+Following Qwen2.5-VL baseline, do the following to train on DE-dataset / your own dataset:
 
-1. Edit `Qwen2.5-VL/qwen-vl-finetune/qwenvl/data/__init__.py` for the Path to the Formatted dataset. 
-2. `bash script/sft.sh` under `Qwen2.5-VL/qwen-vl-finetune`
+1. Edit `Qwen2.5-VL/qwen-vl-finetune/qwenvl/data/__init__.py` for the Path to the Formatted dataset.
+2. Download pretrained weights (merged checkpoint of Qwen2.5-VL-3B and RemoteCLIP-vit-b32) from [huggingface]().
+3. `bash script/sft.sh` under `Qwen2.5-VL/qwen-vl-finetune`
 
 ### Evaluating
 
