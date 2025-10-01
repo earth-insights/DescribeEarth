@@ -64,17 +64,17 @@ the Pretrained checkpoints of DescribeEarth can be downloaded from [huggingface]
 python inference.py --model_dir <model_dir> --image <image_dir> --bbox <4-points-bbox/2-points-bbox>
 ```
 
-**Example**
+- **Example**
 
-````sh
-python inference.py --model_dir ../weights/DescribeEarth_0930 --image ./example1/image.jpg --bbox 36.0 332.0 311.0 325.0 317.0 584.0 42.0 591.0
-````
+    ````sh
+    python inference.py --model_dir ../weights/DescribeEarth_0930 --image ./example1/image.jpg --bbox 36.0 332.0 311.0 325.0 317.0 584.0 42.0 591.0
+    ````
 
-**Result**
+- **Result**
 
-`````tex
-The object of category baseball_field within the specified polygon bounding box is a well-defined outdoor sports facility designed for baseball. The field features a central dirt infield area, clearly demarcated from the surrounding grassy outfield. The infield includes a pitcher's mound and bases, indicating its purpose for baseball games. The surrounding area consists of a large, open grassy field, typical of a baseball diamond layout. Adjacent to the field are structures that appear to be part of a larger complex, possibly including facilities such as dugouts or storage areas. The overall layout and design confirm this as a dedicated baseball field. There are no visible signs of current activity on the field itself.
-`````
+    `````tex
+    The object of category baseball_field within the specified polygon bounding box is a well-defined outdoor sports facility designed for baseball. The field features a central dirt infield area, clearly demarcated from the surrounding grassy outfield. The infield includes a pitcher's mound and bases, indicating its purpose for baseball games. The surrounding area consists of a large, open grassy field, typical of a baseball diamond layout. Adjacent to the field are structures that appear to be part of a larger complex, possibly including facilities such as dugouts or storage areas. The overall layout and design confirm this as a dedicated baseball field. There are no visible signs of current activity on the field itself.
+    `````
 
 ### Training
 
