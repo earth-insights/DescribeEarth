@@ -1,0 +1,1 @@
+python inference.py --model_dir /home/zhangjunjie/CaoXiangyong_Student/LiKaiyu/proj/DescribeEarth/weights/DescribeEarth_0930 --image ./example/image.jpg --bbox  294.0 244.0 505.0 244.0 505.0 522.0 294.0 522.0

@@ -1,0 +1,16 @@
+{
+    "image": "image.jpg",
+    "focal_crop": "focal_crop.jpg",
+    "bbox_vis": "bbox_vis.jpg",
+    "category": "stadium",
+    "conversations": [
+        {
+            "from": "human",
+            "value": "Please describe the object in the bounding box in the original image <image>, where the bounding box is defined by the coordinates: (x_left_top: 294.0, y_left_top: 244.0, x_right_top: 505.0, y_right_top: 244.0, x_right_bottom: 505.0, y_right_bottom: 522.0, x_left_bottom: 294.0, y_left_bottom: 522.0). The corresponding cropped region is shown in the focal image <focal_crop>"
+        },
+        {
+            "from": "gpt",
+            "value": "The object within the specified bounding box is a large, circular stadium with a prominent central field, likely used for sports such as soccer or football. The stadium features multiple tiers of seating arranged in a concentric pattern around the field, indicating a design intended to accommodate a significant number of spectators. The field itself is rectangular and appears to be well-maintained, with distinct markings typical of a sports pitch. Surrounding the stadium are various structures, including what seems to be parking areas and possibly administrative buildings. The stadium is situated near a road network, with visible roads leading to and from the site. To the north, there is an adjacent green area, possibly a park or recreational space, while to the east, residential or commercial buildings are present. The overall layout suggests a well-planned urban setting designed to support large-scale events."
+        }
+    ]
+}
