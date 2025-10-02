@@ -81,7 +81,7 @@ python inference.py --model_dir <model_dir> --image <image_dir> --bbox <4-points
 Following Qwen2.5-VL baseline, do the following to train on DE-dataset / your own dataset:
 
 1. Edit `Qwen2.5-VL/qwen-vl-finetune/qwenvl/data/__init__.py` for the Path to the Formatted dataset.
-2. Download pretrained weights (merged checkpoint of Qwen2.5-VL-3B and RemoteCLIP-vit-b32) from [huggingface]().
+2. Download pretrained weights (merged checkpoint of Qwen2.5-VL-3B and RemoteCLIP-vit-b32) from [huggingface](https://huggingface.co/earth-insights/Qwen2.5-VL-3B-RC).
 3. `bash script/sft.sh` under `Qwen2.5-VL/qwen-vl-finetune`
 
 ### Evaluating
