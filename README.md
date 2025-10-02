@@ -56,7 +56,7 @@ De-Benchmark can be downloaded from [huggingface](https://huggingface.co/dataset
 
 ### Quick Start
 
-the Pretrained checkpoints of DescribeEarth can be downloaded from [huggingface](). To use it, put the whole folder in `weights/`.
+the Pretrained checkpoints of DescribeEarth can be downloaded from [huggingface](https://huggingface.co/earth-insights/DescribeEarth). To use it, put the whole folder in `weights/`.
 
 ### Inference
 
