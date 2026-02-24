@@ -1,6 +1,6 @@
 # DescribeEarth: Describe Anything for Remote Sensing Images
 
-Author: [Kaiyu Li](https://likyoo.github.io/)\*, [Zixuan Jiang](https://anxmuy.github.io/)\*, Xiangyong Cao✉, Jiayu Wang, Yuchen Xiao, Deyu Meng, Zhi Wang
+Author: [Kaiyu Li](https://likyoo.github.io/)\*, [Zixuan Jiang](https://anxmuy.github.io/)\*, Xiangyong Cao✉, Jiayu Wang, Yuchen Xiao, Jing Yao, Chen Wu, Deyu Meng, Zhi Wang
 
 ---
 
