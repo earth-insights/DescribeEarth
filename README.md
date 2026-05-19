@@ -16,6 +16,14 @@
 
 ---
 
+## Authors
+
+[Kaiyu Li](https://likyoo.github.io/)*, [Zixuan Jiang](https://anxmuy.github.io/)*, Xiangyong Cao (corresponding author), Jiayu Wang, Yuchen Xiao, Jing Yao, Chen Wu, Deyu Meng, Zhi Wang
+
+\* Equal contribution.
+
+---
+
 ## Overview
 
 **DescribeEarth** is a remote-sensing MLLM framework for **object-level fine-grained image description**, rather than only image-level captioning.  
@@ -41,6 +49,7 @@ We introduce the **Geo-DLC** task and provide a complete research stack:
 
 ## Table of Contents
 
+- [Authors](#authors)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Data Preparation](#data-preparation)
@@ -183,9 +192,3 @@ If you find this project useful, please cite:
 ```
 
 ---
-
-## Authors
-
-[Kaiyu Li](https://likyoo.github.io/)*, [Zixuan Jiang](https://anxmuy.github.io/)*, Xiangyong Cao (corresponding author), Jiayu Wang, Yuchen Xiao, Jing Yao, Chen Wu, Deyu Meng, Zhi Wang
-
-\* Equal contribution.
