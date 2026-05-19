@@ -12,15 +12,9 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg" alt="License"></a>
 </p>
 
+Author: [Kaiyu Li](https://likyoo.github.io/)\*, [Zixuan Jiang](https://anxmuy.github.io/)\*, Xiangyong Cao✉, Jiayu Wang, Yuchen Xiao, Jing Yao, Chen Wu, Deyu Meng, Zhi Wang
+
 </div>
-
----
-
-## Authors
-
-[Kaiyu Li](https://likyoo.github.io/)*, [Zixuan Jiang](https://anxmuy.github.io/)*, Xiangyong Cao (corresponding author), Jiayu Wang, Yuchen Xiao, Jing Yao, Chen Wu, Deyu Meng, Zhi Wang
-
-\* Equal contribution.
 
 ---
 
@@ -49,7 +43,6 @@ We introduce the **Geo-DLC** task and provide a complete research stack:
 
 ## Table of Contents
 
-- [Authors](#authors)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Data Preparation](#data-preparation)
