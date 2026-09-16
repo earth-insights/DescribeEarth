@@ -18,6 +18,13 @@ Author: [Kaiyu Li](https://likyoo.github.io/)\*, [Zixuan Jiang](https://anxmuy.g
 
 ---
 
+## News
+
+- **2026-09-12**: DescribeEarth has been accepted by ISPRS P&RS! 
+- **2025-10-01**: Paper, code, dataset, benchmark, and checkpoints released.
+
+---
+
 ## Overview
 
 **DescribeEarth** is a remote-sensing MLLM framework for **object-level fine-grained image description**, rather than only image-level captioning.  
@@ -32,12 +39,6 @@ We introduce the **Geo-DLC** task and provide a complete research stack:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/bcfe50ae-945b-448f-aaba-c7a02bb96c80" width="95%" alt="DescribeEarth Framework"/>
 </p>
-
----
-
-## News
-
-- **2025-10-01**: Paper, code, dataset, benchmark, and checkpoints released.
 
 ---
 
